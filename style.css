@@ -1,0 +1,96 @@
+/*
+Theme Name: algolia
+Description: Algolia Blog
+Author: Algolia Team
+Author URI: http://www.algolia.com
+Author Email: hey@algolia.com
+License: MIT
+Version: 1.0
+Tags: algolia
+*/
+
+body {
+	font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+  max-width: 940px;
+}
+
+header img.logo {
+  width: 128px;
+  height: 40px;
+  vertical-align: bottom;
+  margin-bottom: -3px;
+  margin-right: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+  color: black;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-info, .bg-info, .btn-info.btn-circle > i{color:#fff;background-color:#5191d1}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .btn-info.btn-circle:hover > i{color:#fff;background-color:#61a1e1;}
+
+.btn-full {
+  width: 100%;
+}
+
+.alignright {
+  float: right;
+  margin: 0px 0px 20px 20px;
+}
+
+.post {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: justify;
+  line-height: 1.6em;
+}
+
+.post p strong {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.post img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.postmetadata {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.postmetadata .author {
+  width: 50px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+
+.sidebar {
+  margin-left: 30px;
+}
+
+.sidebar .bg-blue {
+  background: #59a9e6 url("//d3ibatyzauff7b.cloudfront.net/assets/flat/bg-blue.png") top center repeat-x;
+}
+
+.sidebar .bg-green {
+  background: #08CCA4 url("//d3ibatyzauff7b.cloudfront.net/assets/flat/bg-green.png") bottom center repeat-x;
+}
