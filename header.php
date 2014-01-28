@@ -13,14 +13,14 @@
   <![endif]-->
 
   <link href='//fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
    
   <?php  wp_head(); ?>
+  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 </head>
-<body>
+<body class="bg-blue">
   <header>
-    <div class="container">
+    <div class="container main">
       <div class="pull-right">
         <a href="//www.algolia.com" class="btn btn-large btn-info">What is Algolia?</a>
       </div>
@@ -29,4 +29,4 @@
       A blog about Programming, Search &amp; User Experience
     </div>
   </header>
-  <hr />
+  <div class="header-padder"></div>

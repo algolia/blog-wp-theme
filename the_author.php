@@ -4,7 +4,7 @@
     </a>
     <div class="media-body text-muted">
         Posted on <?php the_date("l, F jS, Y"); ?><br />
-        Written by <a href="<?php the_author_meta('user_url'); ?>"><?php the_author(); ?></a>
+        Written by <strong><?php the_author(); ?></strong>
         <?php edit_post_link('Edit', ' &#124; ', ''); ?>
     </div>
 </div>
