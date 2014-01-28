@@ -26,7 +26,7 @@
       </div>
 
       <a href="<?php bloginfo('wpurl'); ?>"><img src="//d3ibatyzauff7b.cloudfront.net/assets/algolia256x80.png" alt="Algolia" class="logo"></a>
-      A blog about Programming, Search &amp; User Experience
+      A Blog About Programming, Search &amp; User Experience
     </div>
   </header>
   <div class="header-padder"></div>
