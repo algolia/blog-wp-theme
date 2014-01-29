@@ -14,6 +14,22 @@
 
   <link href='//fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+  <meta content='summary_large_image' name='twitter:card'>
+  <meta content='@algolia' name='twitter:site'>
+  <meta content='The Algolia Blog' name='twitter:title'>
+  <meta content="A Blog About Programming, Search &amp; User Experience" name='twitter:description'>
+  <meta content='http://d3ibatyzauff7b.cloudfront.net/assets/Algolia-Banner_1200x500.png' name='twitter:image:src'>
+  <meta content='blog.algolia.com' name='twitter:domain'>
+
+  <meta content='The Algolia Blog' property='st:title'>
+  <meta content='http://www.algolia.com/' property='og:url'>
+  <meta content='Algolia' property='og:site_name'>
+  <meta content='The Algolia Blog' property='og:title'>
+  <meta content="A Blog About Programming, Search &amp; User Experience" property='og:description'>
+  <meta content='http://d3ibatyzauff7b.cloudfront.net/assets/Algolia-Banner_1200x500.png' property='og:image'>
+  <meta content='1200' property='og:image:width'>
+  <meta content='500' property='og:image:height'>
    
   <?php  wp_head(); ?>
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
