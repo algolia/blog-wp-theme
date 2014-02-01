@@ -55,9 +55,123 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   color: black;
 }
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+table table {
+  background-color: #ffffff;
+}
+
+
+table col[class*="col-"] {
+  position: static;
+  display:table-column;
+  float: none;
+}
+
+table td[class*="col-"],
+table th[class*="col-"] {
+  display:table-cell;
+  float: none;
+}
+
+table > thead > tr > .active,
+table > tbody > tr > .active,
+table > tfoot > tr > .active,
+table > thead > .active > td,
+table > tbody > .active > td,
+table > tfoot > .active > td,
+table > thead > .active > th,
+table > tbody > .active > th,
+table > tfoot > .active > th {
+  background-color: #f5f5f5;
+}
+
+table > thead > tr > .success,
+table > tbody > tr > .success,
+table > tfoot > tr > .success,
+table > thead > .success > td,
+table > tbody > .success > td,
+table > tfoot > .success > td,
+table > thead > .success > th,
+table > tbody > .success > th,
+table > tfoot > .success > th {
+  background-color: #dff0d8;
+}
+
+table > thead > tr > .danger,
+table > tbody > tr > .danger,
+table > tfoot > tr > .danger,
+table > thead > .danger > td,
+table > tbody > .danger > td,
+table > tfoot > .danger > td,
+table > thead > .danger > th,
+table > tbody > .danger > th,
+table > tfoot > .danger > th {
+  background-color: #f2dede;
+}
+
+table > thead > tr > .warning,
+table > tbody > tr > .warning,
+table > tfoot > tr > .warning,
+table > thead > .warning > td,
+table > tbody > .warning > td,
+table > tfoot > .warning > td,
+table > thead > .warning > th,
+table > tbody > .warning > th,
+table > tfoot > .warning > th {
+  background-color: #fcf8e3;
+}
+
 
 a, a:visited, a:hover {
   text-decoration: none !important;
@@ -96,14 +210,12 @@ a:hover {
 .post {
   margin-bottom: 15px;
   padding-bottom: 15px;
-  text-align: justify;
   line-height: 1.6em;
   margin-bottom: 20px;
 }
 
 .post p strong {
   font-weight: bold;
-  font-size: 1.2em;
 }
 
 .post img {
