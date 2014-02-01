@@ -185,6 +185,12 @@ a:hover {
   margin: 0px !important;
   margin-left: 120px !important;
 }
+@media (max-width: 767px) {
+  .main {
+    margin-left: 60px !important;
+    margin-right: 20px !important;
+  }
+}
 
 #col-left {
   background: white;
