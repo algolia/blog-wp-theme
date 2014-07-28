@@ -2,6 +2,9 @@
 
 //Add support for WordPress 3.0's custom menus
 add_action( 'init', 'register_my_menu' );
+
+// Support HTML5
+add_theme_support( 'html5', array( 'search-form' ) );
  
 //Register area for custom menu
 function register_my_menu() {

@@ -28,6 +28,8 @@
   </section>
 
   <section class="panel panel-default m-t no-p-b">
+    <?php get_search_form(); ?>
+    <hr />
     <div class="panel-heading">
       <h4 class="text-center">Recent Posts</h4>
     </div>
@@ -46,7 +48,7 @@
     <hr />
     <div class="panel-body text-center">
       <h4>Improve your overall search experience today</h4>
-      <a href="//www.algolia.com/features" class="btn btn-large btn-info">Explore our Features</a>
+      <a href="//www.algolia.com/demos" class="btn btn-large btn-danger">See our demos</a>
     </div>
   </section>
 

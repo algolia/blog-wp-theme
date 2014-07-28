@@ -204,6 +204,9 @@ a:hover {
 .btn-info, .bg-info > i{color:#fff;background-color:#5191d1;border: 0px;}
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {color:#fff;background-color:#61a1e1;}
 
+.btn-danger, .bg-danger > i{color:#fff;background-color:#ff5f5f;border: 0px;}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {color:#fff;background-color:#ff8585;}
+
 .btn-full {
   width: 100%;
 }
@@ -335,4 +338,48 @@ a:hover {
 
 .bg-white {
   background: white;
+}
+
+.search-form label {
+  display: block;
+}
+
+.search-form .screen-reader-text {
+  display: none;
+}
+
+.search-form .search-field {
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+.search-form .search-submit {
+  display: none;
+}
+
+.ui-autocomplete {
+  border-radius: 0px;
+}
+
+.ui-autocomplete .ui-menu-item strong {
+  font-weight: normal;
+}
+
+.ui-autocomplete .ui-menu-item em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.ui-autocomplete .ui-menu-item:last-child {
+  border-bottom: 0;
+}
+
+.ui-autocomplete .ui-menu-item a:hover {
+  background: #5191d1;
+  color: white;
+}
+
+.ui-autocomplete .ui-menu-item .mvn-alg-ls-item-cats {
+  display: none;
 }
