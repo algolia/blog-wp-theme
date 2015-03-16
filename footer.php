@@ -9,7 +9,7 @@
     <div class="container text-center text-muted main">
       <div class="row">
         <div class="col-lg-8 col-sm-8 col-xs-8">
-          <p>&copy; 2014 <?php bloginfo('name'); ?>          
+          <p>&copy; 2015 <?php bloginfo('name'); ?>          
         </div>
       </div>
     </div>
